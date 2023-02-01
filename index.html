@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- COROUSEL -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/0427cee4dc.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body id="home">
+    <div class="hero">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-md">
+          <h4>PORT<span class="text-warning">FOLIO</span></h4>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto item">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyek">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="detel" data-aos="fade-down">
+        <h1>I,m Aidil <span class="text-warning">Ahda</span></h1>
+        <p>
+          This is my official portfolio website to showes all
+          <br />
+          Details and my work experience
+        </p>
+        <a class="btn btn-warning" href="assets/cv.pdf">Download CV</a>
+      </div>
+      <div class="gambar">
+        <img src="assets/image/shape.png" class="shape" />
+        <img src="assets/image/me.png" class="me" />
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="about-container pt-5">
+        <img src="assets/image/me2.png" data-aos="fade-right" alt="" />
+        <div class="about-text" data-aos="fade-left">
+          <p>About Me</p>
+          <p data-aos="fade-left">
+            Hello,My name is Aidil Ahda. Im a student at islamic state
+            university of sultan syarief kasim riau.
+          </p>
+          <p data-aos="fade-left">
+            I have expertise in using the programming language Java, PHP,
+            Python, HTML, CSS, JavaScript properly and with problems solving
+            while working on coding. Thorough and disciplined in work and be
+            responsible the deed I did
+          </p>
+          <a class="btn btn-warning text-white" href="assets/cv.pdf"
+            >Download My CV</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- PROJECTS -->
+    <section id="proyek">
+      <div class="projects">
+        <div class="projects-text text-center text-white">
+          <p>My Projects</p>
+        </div>
+        <div class="slider owl-carousel">
+          <div class="card" style="height: 375px">
+            <div class="img">
+              <img src="assets/image/p4.JPG" alt="" style="width: 340px" />
+            </div>
+            <div class="content">
+              <div class="title">Kelola Absensi Magang</div>
+              <p>built using PHP</p>
+              <div class="tombol mt-5">
+                <a
+                  href="https://github.com/AidilAhda/Kelola_magang.git"
+                  target="_blank"
+                  class="btn bg-success"
+                  >Lihat Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="assets/image/p1.JPG" alt="" style="width: 340px" />
+            </div>
+            <div class="content">
+              <div class="title">My Alquran</div>
+              <p>
+                built using VUE JS,AOS and consume API from
+                <a
+                  href="https://quran.api-docs.io/v3/getting-started/introduction"
+                  target="_blank"
+                  >Quran.com
+                </a>
+              </p>
+              <div class="tombol">
+                <a
+                  href="https://my-alquran.netlify.app/#/"
+                  target="_blank"
+                  class="btn bg-success"
+                  >Lihat Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="assets/image/p2.JPG" alt="" style="width: 340px" />
+            </div>
+            <div class="content">
+              <div class="title">Youtube Downloader</div>
+              <p>
+                a simple GUI made using PYTHON that can download videos from
+                youtube
+              </p>
+              <div class="tombol">
+                <a
+                  class="btn bg-success"
+                  href="https://github.com/AidilAhda/youtube-downloader-using-GUI.git"
+                  target="_blank"
+                  >Lihat Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="img">
+              <img src="assets/image/p3.JPG" alt="" style="width: 340px" />
+            </div>
+            <div class="content">
+              <div class="title">Kopao Inventory</div>
+              <p>
+                an inventory system at a coffee shop made using CODEIGNITER 3
+              </p>
+              <div class="tombol">
+                <a
+                  class="btn btn-success"
+                  href="https://github.com/AidilAhda/kopao-inventory.git"
+                  target="_blank"
+                  >Lihat Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END PROJECTS -->
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact-container mt-5 mb-5">
+        <div class="container">
+          <div class="row justify-content-center pt-3">
+            <div class="col-md-6">
+              <div
+                class="alert alert-success alert-dismissible fade show d-none my-alert"
+                role="alert"
+              >
+                <strong>Thank you</strong> your message has been sent
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div
+                class="alert alert-danger alert-dismissible fade show d-none my-alert2"
+                role="alert"
+              >
+                <strong>Oppss</strong> Your message failed to send
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <form name="contact-form">
+                <div class="mb-3">
+                  <label for="nama" class="form-label">Full Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nama"
+                    aria-describedby="emailHelp"
+                    name="nama"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="email" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    name="email"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label"
+                    >Message</label
+                  >
+                  <textarea
+                    class="form-control"
+                    id="pesan"
+                    name="pesan"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-warning text-white btn-kirim"
+                >
+                  Submit
+                </button>
+                <button
+                  class="btn btn-warning text-white d-none btn-loading"
+                  type="button"
+                  disabled
+                >
+                  <span
+                    class="spinner-border spinner-border-sm"
+                    role="status"
+                    aria-hidden="true"
+                  ></span>
+                  Loading...
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END CONTACT -->
+
+    <!-- footer -->
+    <footer>
+      <p>Follow me on</p>
+      <p>If you are interested in a project I have worked on, find me on</p>
+
+      <div class="social-icons">
+        <a
+          href="https://instagram.com/evo_diaa?igshid=YmMyMTA2M2Y="
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://github.com/AidilAhda" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCstme1I6k9Me5P4wsjlrhPA"
+          target="_blank"
+          ><i class="fa-brands fa-youtube"></i
+        ></a>
+      </div>
+
+      <p class="copyright">
+        Copyright <i class="fa-solid fa-copyright"></i> Aidil Ahda 2023
+      </p>
+    </footer>
+    <!-- end footer -->
+
+    <script>
+      $(".slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000, //2000ms = 2s;
+        autoplayHoverPause: true,
+      });
+
+      // save data to google sheets
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbydoAf0ohO3S64-VLnZgCf3JEhXMh-kBYjeuLuaGyO4Qr4niBkRxnTEtUPfBCO4BwN_PQ/exec";
+      const form = document.forms["contact-form"];
+
+      const btnKirim = document.querySelector(".btn-kirim");
+      const btnLoading = document.querySelector(".btn-loading");
+      const myAlert = document.querySelector(".my-alert");
+      const myAlert2 = document.querySelector(".my-alert2");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // ketika tombol kirim diklik
+        // tampilkan tombol loading,hilangkan tombol kirim
+        btnLoading.classList.toggle("d-none");
+        btnKirim.classList.toggle("d-none");
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            console.log("Success!", response);
+            // tampilkan tombol kirim,hilangkan tombol loading dan tampilkan alert
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            myAlert.classList.toggle("d-none");
+
+            // reset form
+            form.reset();
+          })
+          .catch((error) => {
+            console.error("Error!", error.message);
+            // tampilkan tombol kirim,hilangkan tombol loading dan tampilkan alert
+            btnLoading.classList.toggle("d-none");
+            btnKirim.classList.toggle("d-none");
+            myAlert2.classList.toggle("d-none");
+
+            // reset form
+            form.reset();
+          });
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
