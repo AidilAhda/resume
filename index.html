@@ -10,13 +10,13 @@
 
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- COROUSEL -->
+    <!-- COROUSEL
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-    />
+    /> -->
     <!-- FONT AWESOME -->
     <script
       src="https://kit.fontawesome.com/0427cee4dc.js"
@@ -76,8 +76,40 @@
     </div>
 
     <!-- ABOUT -->
-    <section id="about">
-      <div class="about-container pt-5">
+    <section id="about" class="text-muted">
+      <div class="row justify-content-center">
+        <div class="col-10">
+          <div class="card shadow">
+            <div class="card-body">
+              <div class="row pt-5">
+                <div class="col-sm-5 col-md-4">
+                  <img src="assets/image/me2.png" class="w-75" alt="" />
+                </div>
+
+                <div class="col-md-8">
+                  <div class="text-muted" data-aos="zoom-in">
+                    <p class="fw-bold">About Me</p>
+                    <p data-aos="zoom-in">
+                      Hello,My name is Aidil Ahda. Im a student at islamic state
+                      university of sultan syarief kasim riau.
+                    </p>
+                    <p data-aos="zoom-in">
+                      I have expertise in using the programming language Java,
+                      PHP, Python, HTML, CSS, JavaScript properly and with
+                      problems solving while working on coding. Thorough and
+                      disciplined in work and be responsible the deed I did
+                    </p>
+                    <a class="btn btn-warning text-white" href="assets/cv.pdf"
+                      >Download My CV</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="about-container pt-5">
         <img src="assets/image/me2.png" data-aos="fade-right" alt="" />
         <div class="about-text" data-aos="fade-left">
           <p>About Me</p>
@@ -95,94 +127,148 @@
             >Download My CV</a
           >
         </div>
-      </div>
+      </div> -->
     </section>
     <!-- END ABOUT -->
 
     <!-- PROJECTS -->
-    <section id="proyek">
-      <div class="projects">
-        <div class="projects-text text-center text-white">
-          <p>My Projects</p>
-        </div>
-        <div class="slider owl-carousel">
-          <div class="card" style="height: 375px">
-            <div class="img">
-              <img src="assets/image/p4.JPG" alt="" style="width: 340px" />
-            </div>
-            <div class="content">
-              <div class="title">Kelola Absensi Magang</div>
-              <p>built using PHP</p>
-              <div class="tombol mt-5">
+    <section style="background: #eff4fd" id="proyek">
+      <h1 class="text-center">My Projects</h1>
+      <div class="container py-5">
+        <div class="main-timeline-2">
+          <div class="timeline-2 left-2" data-aos="fade-right">
+            <div class="card">
+              <img
+                src="assets/image/p1.JPG"
+                class="card-img-top"
+                alt="Responsive image"
+              />
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">My Al-Quran</h4>
+                <p class="text-muted mb-4">
+                  <i class="far fa-clock" aria-hidden="true"></i> 2022
+                </p>
+                <p class="mb-0">
+                  My Al-Quran is a website built using the Vue js framework and
+                  taking API from https://api.quran.com/. which contains surahs
+                  from juz 30 complete with their meanings and recitations.
+                </p>
                 <a
-                  href="https://github.com/AidilAhda/Kelola_magang.git"
+                  href="https://my-alquran.netlify.com/"
                   target="_blank"
-                  class="btn bg-success"
+                  class="btn btn-warning text-white mt-3"
                   >Lihat Project</a
                 >
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="img">
-              <img src="assets/image/p1.JPG" alt="" style="width: 340px" />
-            </div>
-            <div class="content">
-              <div class="title">My Alquran</div>
-              <p>
-                built using VUE JS,AOS and consume API from
+          <div class="timeline-2 right-2" data-aos="fade-left">
+            <div class="card">
+              <img
+                src="assets/image/p3.JPG"
+                class="card-img-top"
+                alt="Responsive image"
+              />
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">Kopao Inventory</h4>
+                <p class="text-muted mb-4">
+                  <i class="far fa-clock" aria-hidden="true"></i> 2022
+                </p>
+                <p class="mb-0">
+                  Kopao Inventory is a website that is useful in the process of
+                  storing goods in a coffee shop called Kopao Coffe. created
+                  using the Codeigniter 3 framework and MySQL database. this
+                  website has 3 users, namely the admin, cashier at each branch
+                  of the coffee shop and the owner of the coffee shop. The admin
+                  can add, delete, edit items to each branch of the coffe shop,
+                  manage accounts, and approve for each order of goods from the
+                  coffe shop branch. for branch cashier users can request goods
+                  to the admin and record incoming goods and outgoing goods.
+                  while the owner can see reports on incoming goods and outgoing
+                  goods from each branch of the coffe shop.
+                </p>
                 <a
-                  href="https://quran.api-docs.io/v3/getting-started/introduction"
+                  href="https://github.com/AidilAhda/kopao-inventory"
                   target="_blank"
-                  >Quran.com
-                </a>
-              </p>
-              <div class="tombol">
-                <a
-                  href="https://my-alquran.netlify.app/#/"
-                  target="_blank"
-                  class="btn bg-success"
+                  class="btn btn-warning text-white mt-3"
                   >Lihat Project</a
                 >
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="img">
-              <img src="assets/image/p2.JPG" alt="" style="width: 340px" />
-            </div>
-            <div class="content">
-              <div class="title">Youtube Downloader</div>
-              <p>
-                a simple GUI made using PYTHON that can download videos from
-                youtube
-              </p>
-              <div class="tombol">
+          <div class="timeline-2 left-2" data-aos="fade-right">
+            <div class="card">
+              <img
+                src="assets/image/p5.JPG"
+                class="card-img-top"
+                alt="Responsive image"
+              />
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">Warung Wahana</h4>
+                <p class="text-muted mb-4">
+                  <i class="far fa-clock" aria-hidden="true"></i> 2023
+                </p>
+                <p class="mb-0">
+                  Warung Wahana is a landing page website that introduces a
+                  store to attract consumers and as a promotional place.
+                </p>
                 <a
-                  class="btn bg-success"
-                  href="https://github.com/AidilAhda/youtube-downloader-using-GUI.git"
+                  href="https://warung-wahana.netlify.app/"
                   target="_blank"
+                  class="btn btn-warning text-white mt-3"
                   >Lihat Project</a
                 >
               </div>
             </div>
           </div>
-          <div class="card">
-            <div class="img">
-              <img src="assets/image/p3.JPG" alt="" style="width: 340px" />
-            </div>
-            <div class="content">
-              <div class="title">Kopao Inventory</div>
-              <p>
-                an inventory system at a coffee shop made using CODEIGNITER 3
-              </p>
-              <div class="tombol">
+          <div class="timeline-2 right-2" data-aos="fade-left">
+            <div class="card">
+              <img
+                src="assets/image/p4.JPG"
+                class="card-img-top"
+                alt="Responsive image"
+              />
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">Website Absensi</h4>
+                <p class="text-muted mb-4">
+                  <i class="far fa-clock" aria-hidden="true"></i> 2023
+                </p>
+                <p class="mb-0">
+                  is a website where users can do the attendance process. made
+                  using PHP and SQL, this website has 2 users, namely admin and
+                  interns. where interns can do absences in and absences out
+                  while admins can manage accounts, view intern attendance
+                  reports and confirm the attendance of the interns.
+                </p>
                 <a
-                  class="btn btn-success"
-                  href="https://github.com/AidilAhda/kopao-inventory.git"
+                  href="https://github.com/AidilAhda/Kelola_magang"
                   target="_blank"
+                  class="btn btn-warning text-white mt-3"
                   >Lihat Project</a
                 >
+              </div>
+            </div>
+          </div>
+          <div class="timeline-2 left-2">
+            <div class="card">
+              <img
+                src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(144).webp"
+                class="card-img-top"
+                alt="Responsive image"
+              />
+              <div class="card-body p-4">
+                <h4 class="fw-bold mb-4">Mussum ipsum cacilds</h4>
+                <p class="text-muted mb-4">
+                  <i class="far fa-clock" aria-hidden="true"></i> 2013
+                </p>
+                <p class="mb-0">
+                  Temporibus autem quibusdam et aut officiis debitis aut rerum
+                  necessitatibus saepe eveniet ut et voluptates repudiandae sint
+                  et molestiae non recusandae. Itaque earum rerum hic tenetur a
+                  sapiente delectus, ut aut reiciendis voluptatibus maiores
+                  alias consequatur aut perferendis doloribus asperiores
+                  repellat.
+                </p>
               </div>
             </div>
           </div>
@@ -299,9 +385,9 @@
           ><i class="fa-brands fa-github"></i
         ></a>
         <a
-          href="https://www.youtube.com/channel/UCstme1I6k9Me5P4wsjlrhPA"
+          href="https://www.linkedin.com/in/aidil-ahda-9bb331260/"
           target="_blank"
-          ><i class="fa-brands fa-youtube"></i
+          ><i class="fa-brands fa-linkedin"></i
         ></a>
       </div>
 
@@ -311,7 +397,7 @@
     </footer>
     <!-- end footer -->
 
-    <script>
+    <!-- <script>
       $(".slider").owlCarousel({
         loop: true,
         autoplay: true,
@@ -358,11 +444,13 @@
             form.reset();
           });
       });
-    </script>
+    </script> -->
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+
     <script src="assets/js/bootstrap.bundle.js"></script>
   </body>
 </html>
